@@ -15,4 +15,4 @@ from termbot import (
 
 @Client.on_message(~Filters.chat(chats=AUTH_USERS))
 async def not_auth_text(client, message):
-    await message.reply("`Hey I am Online. Now Fu#k Off. \n Nikal Lawde`🐈")
+    await message.reply("`Bonjour! I am Online and Healthy. Now Fu#k Off. \n Nikal Lawde`🐈")
